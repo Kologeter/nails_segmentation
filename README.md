@@ -1,57 +1,54 @@
 # Nails Segmentation machine learning
 
-Проект демонстрирует применение алгоритмов компьютерного зрения для выделения областей ногтей на изображениях с использование готового датасета с Roboflow.
+The project demonstrates the use of computer vision algorithms to highlight nail areas in images using a ready-made dataset with Roboflow.
 
-## Описание проекта
+## Project Description
 
-В ноутбуке представлены следующие этапы:
-- **Предобработка изображений:** подготовка данных для последующей обработки.
-- **Сегментация и распознавание:** применение алгоритмов (традиционных или на основе глубокого обучения) для выделения ногтей на изображениях.
-- **Визуализация результатов:** отображение исходных изображений и результатов сегментации для наглядного сравнения.
+The following steps are presented in the notebook:
+- **Image Preprocessing:** preparation of data for subsequent processing.
+- **Segmentation and recognition:** the use of algorithms (traditional or based on deep learning) to highlight nails in images.
+- **Visualization of results:** Display of source images and segmentation results for visual comparison.
 
-Этот проект может служить отправной точкой для исследований в области медицинской диагностики, эстетической индустрии или других приложений, где требуется автоматическое распознавание и сегментация ногтей.
+This project can serve as a starting point for research in the field of medical diagnostics, the aesthetic industry or other applications where automatic recognition and segmentation of nails is required.
 
-## Требования
+## Requirements
 
-Для работы с проектом рекомендуется использовать:
+To work with the project, it is recommended to use:
 - Python 3.7+
-- Jupyter Notebook или JupyterLab
+- Jupyter Notebook or JupyterLab
 - Roboflow datasets
 
-Основные библиотеки, которые могут понадобиться:
+The main libraries that may be needed:
 - numpy
 - pandas
 - matplotlib
 - opencv-python
 - scikit-learn
-- tensorflow/keras или pytorch (в зависимости от выбранного подхода)
+- tensorflow/keras or pytorch (depending on the chosen approach)
 
-При наличии файла `requirements.txt` установите зависимости командой:
-```bash
+If there is a file `requirements.txt ` install the dependencies with the command:
+``bash
 pip install -r requirements.txt
 ```
-Установка и запуск
+Installation and launch
 
-Клонируйте репозиторий:
-```bash
+Clone the repository:
+``bash
 git clone https://github.com/Kologeter/nails_segmentation.git
 ```
-Перейдите в каталог проекта:
+Go to the project directory:
 
 ```bash
 cd nails_segmentation
 ```
 
-Запустите Jupyter Notebook:
+Launch Jupyter Notebook:
 ```bash
 jupyter notebook
 ```
 
-Рекомендуется использовать видеокарты с большим количеством CUDA ядер
+It is recommended to use graphics cards with a large number of CUDA cores.
 
-## Лицензия
+## License
 
-Этот проект распространяется под лицензией MIT License. Ознакомьтесь с файлом LICENSE для получения дополнительной информации.
-
-
-
+This project is distributed under the MIT License. Check out the LICENSE file for more information.
